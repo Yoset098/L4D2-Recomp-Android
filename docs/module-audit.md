@@ -105,6 +105,19 @@ Investigate `tier0_360` and `vstdlib_360`, focusing on imports and cross-module 
 Investigate how `default` interacts with `launcher_360` and whether the expected runtime loading behavior can be reproduced.
 
 ## 7. Limitations
+## Graphics Compatibility Scope
+
+The initial development target is Android devices equipped with
+Qualcomm Adreno GPUs.
+
+The graphics implementation is expected to use Vulkan, subject to
+technical validation and the requirements of the recompilation pipeline.
+
+Other GPU vendors, including ARM Mali, are outside the initial
+compatibility scope.
+
+Adreno compatibility has not yet been demonstrated through a
+working rendering implementation.
 
 This report summarizes the current audit findings.
 
