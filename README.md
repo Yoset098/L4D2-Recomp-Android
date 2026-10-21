@@ -8,6 +8,18 @@ L4D2-Recomp-Android is an experimental research project investigating the feasib
 
 The goal is to explore a native execution path rather than relying on traditional Windows emulation.
 
+## Initial Hardware Support
+
+- **GPU:** Qualcomm Adreno
+- **Architecture:** ARM64
+- **Platform:** Android
+- **Graphics backend:** Vulkan (planned; implementation not yet validated)
+
+Initial development will focus on Adreno GPUs.
+Support for other GPU vendors, including Mali, is not currently planned.
+
+Hardware compatibility and rendering performance have not yet been validated.
+
 ## Current Progress
 
 ### Phase I — Module Audit
